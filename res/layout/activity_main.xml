@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    style="@style/AppBaseTheme"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#ff51b46d"
+    android:scrollbars="none"
+    tools:context="com.example.randomcheerup.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/TitleStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#80ffffff" />
+
+    <TextView
+        android:id="@+id/sentence"
+        style="@style/SentenceStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Don&apos;t Sweat the Small Stuff" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/ButtonStyle"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/mybutton"
+        android:text="@string/button"
+        android:textColor="#ff51b46d" />
+
+    <TextView
+        android:id="@+id/number"
+        style="style/NumberStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="160dp"
+        android:text="1"
+        android:textColor="#80ffffff"
+        android:textSize="48sp" />
+
+</RelativeLayout>

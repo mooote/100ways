@@ -1,0 +1,120 @@
+package com.example.randomcheerup;
+
+import java.util.Random;
+
+public class CheerUps {
+	public String[] mCheerSeries = {
+			"Don't Sweat the Small Stuff",
+			"Make Peace with Imperfection",
+			"Let Go of the Idea that Gentle, Relaxed People Can't be Superachievers",
+			"Be Aware of the Snowball Effect of Your Thinking",
+			"Develop Your Compassion",
+			"Remind Yourself that When You Die, Your \"In Basket\" Won't Be Empty",
+			"Don't Interrupt Others or Finish Their Sentences",
+			"Do Something Nice for Someone Else and Don't Tell Anyone About It",
+			"Let Others Have the Glory",
+			"Learn to Live in the Present Moment",
+			"Imagine that Everyone Is Enlightened Except You",
+			"Let Others Be \"Right\" Most of the Time",
+			"Become More Patient",
+			"Create \"Patience Practice Periods\"",
+			"Be the First One to Act Loving or Reach Out",
+			"Ask Yourself the Question, \"Will This Matter a Year from Now?\"",
+			"Surrender to the Fact that Life Isn't Fair",
+			"Allow Yourself to Be Bored",
+			"Lower Your Tolerance to Stress",
+			"Once a Week, Write a Heartfelt Letter",
+			"Imagine Yourself at Your Own Funeral",
+			"Repeat to Yourself, \"Life Isn't an Emergency\"",
+			"Experiment with Your Back Burner",
+			"Spend a Moment Every Day Thinking of Someone to Thank",
+			"Smile at Strangers, Look into Their Eyes, and Say Hello",
+			"Set Aside Quiet Time, Every Day",
+			"Imagine the People in Your Life as Tiny Infants and One-Hundred-Year-Old Adults",
+			"Seek First to Understand",
+			"Become a Better Listener",
+			"Choose Your Battles Wisely",
+			"Become Aware of Your Moods and Don't Allow Yourself to Be Fooled by the Low Ones",
+			"Life Is a Test. It Is Only a Test",
+			"Praise and Blame Are All the Same",
+			"Practice Random Acts of Kindness",
+			"Look Beyond Behavior",
+			"See the Innocence",
+			"Choose Being Kind over Being Right",
+			"Tell Three People (Today) How Much You Love Them",
+			"Practice Humility",
+			"When in Doubt about Whose Turn It Is to Take Out Trash, Go Ahead and Take It Out",
+			"Avoid Weatherproofing",
+			"Spend a Moment, Every Day, Thinking of Someone to Love",
+			"Become an Anthropologist",
+			"Understand Separate Realities",
+			"Develop Your Own Helping Rituals",
+			"Every Day, Tell at Least One Person Something You Li Admire, or Appreciate about Them",
+			"Argue for Your Limitations, and They're Yours",
+			"Remember that Everything Has God's Fingerprints on it",
+			"Resist the Urge to Criticize",
+			"Write Down Your Five Most Stubborn Positions and See if You Can Soften Them",
+			"Just for Fun, Agree with Criticism Directed Toward (Then Watch It Go Away)",
+			"Search for the Grain of Truth in Other Opinions",
+			"See the Glass as Already Broken (and Everything Else Too)",
+			"Understand the Statement, \"Wherever You Go, There you Are\"",
+			"Breathe Before You Speak",
+			"Be Grateful when You're Feeling Good and Graceful when You're Feeling Bad",
+			"Become A Less Aggressive Driver",
+			"Relax",
+			"Adopt a Child Through the Mail",
+			"Turn Your Melodrama into a Mellow-Drama",
+			"Read Articles and Books with Entirely Different Points of View from Your Own and Try to Learn Something",
+			"Do One Thing at a Time",
+			"Count to Ten",
+			"Practice Being in the \"Eye of the Storm\"",
+			"Be Flexible with Changes in Your Plans",
+			"Think of What You Have Instead of What You Want",
+			"Practice Ignoring Your Negative Thoughts",
+			"Be Willing to Learn from Friends and Family",
+			"Be Happy Where You Are",
+			"Remember that You Become What You Practice Most",
+			"Quiet the Mind",
+			"Take Up Yoga",
+			"Make Service an Integral Part of Your Life",
+			"Do a Favor and Don't Ask For, or Expect, One in Return",
+			"Think of Your Problems as Potential Teachers",
+			"Get Comfortable Not Knowing",
+			"Acknowledge the Totality of Your Being",
+			"Cut Yourself Some Slack",
+			"Stop Blaming Others",
+			"Become an Early Riser",
+			"When Trying to Be Helpful, Focus on Little Things",
+			"Remember, One Hundred Years from Now, All New People",
+			"Lighten Up",
+			"Nurture a Plant",
+			"Transform Your Relationship to Your Problems",
+			"The Next Time You Find Yourself in an Argument, Rather than Defend Your Position, "
+					+ "See if You Can See the Other Point of View First",
+			"Redefine a \"Meaningful Accomplishment\"",
+			"Listen to Your Feelings (They Are Trying to Tell you Something)",
+			"If Someone Throws You the Ball, You Don't Have to Catch It",
+			"One More Passing Show", "Fill Your Life with Love",
+			"Realize the Power of Your Own Thoughts",
+			"Give Up on the Idea that \"More Is Better\"",
+			"Keep Asking Yourself, \"What's Really Important?\"",
+			"Trust Your Intuitive Heart", "Be Open to \"What Is\"",
+			"Mind Your Own Business",
+			"Look for the Extraordinary in the Ordinary",
+			"Schedule Time for Your Inner Work",
+			"Live This Day as if It Were Your Last. It Might"
+
+	};
+
+	public String getcheer() {
+		// updating text
+		String cheer = "";
+		// create new random constructor
+		Random randomCheers = new Random();
+		// combine w member
+		int rendomNumber = randomCheers.nextInt(mCheerSeries.length);
+		cheer = mCheerSeries[rendomNumber];
+		return cheer;
+	}
+
+}
